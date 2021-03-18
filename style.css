@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 24px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 90px;
+	margin: 0px;
+	font-weight: 800;
+}
+
+p {
+	font-size: 24px;
+	margin: 0;
+}
+
+h5 {
+	font-size: 15px;
+	margin: 0;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+th {
+	font-size: 24px;
+	border-left: solid 5px;
+}
+
+td {
+	padding: 8px 12px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.c {
+	font-weight: 800;
+}
