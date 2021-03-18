@@ -64,7 +64,7 @@ function handleClock(){
     const seconds = date.getSeconds();
     const days = ["일","월","화","수","목","금","토"];
     currentDay = days[currentDay];
-    day.innerText = `${month}월 ${currentDate}일 ${currentDay}요일`;
+    day.innerText = `${month+1}월 ${currentDate}일 ${currentDay}요일`;
     clock.innerText = `${hours < 10 ? `0${hours}` : hours}:${
         minutes < 10 ? `0${minutes}` : minutes
       }:${seconds < 10 ? `0${seconds}` : seconds}`;
