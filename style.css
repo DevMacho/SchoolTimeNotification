@@ -57,3 +57,21 @@ td {
 .c {
 	font-weight: 800;
 }
+
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 50px;
+	}
+	table {
+		margin-top: 50px;
+	}
+	th {
+		font-size: 20px;
+	}
+	td {
+		font-size: 12px;
+	}
+}
