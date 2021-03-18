@@ -72,6 +72,24 @@ td {
 		font-size: 20px;
 	}
 	td {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 58px;
+	}
+	table {
+		margin-top: 50px;
+	}
+	th {
+		font-size: 20px;
+	}
+	td {
 		font-size: 12px;
 	}
 }
