@@ -321,6 +321,12 @@ function handleClock(){
             link.innerHTML = '주제 수업은 알아서 찾아가기!'
         }
     }
+    if(currentDate == "토"){
+        link.innerHTML = '좋은 주말!'
+    }
+    if(currentDate == "일"){
+        link.innerHTML = '좋은 주말!'
+    }
 }
 handleClock();
 setInterval(handleClock,1000);
