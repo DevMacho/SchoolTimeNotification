@@ -164,6 +164,10 @@ function handleClock(){
         now = 'night';
         status.innerText = '🥱하암... 좋은 밤 되세용';
     }
+    if(currentDay == "토" || currentDay == "일"){
+        now = 'weekend';
+        status.innerText = '좋은 주말 보내세요!';
+    }
 
     if(now == "end" || now == "break"){
         link.innerHTML = ''
@@ -173,6 +177,9 @@ function handleClock(){
     }
     if(now == "night"){
         link.innerHTML = '<a href="https://www.youtube.com/watch?v=p2fxv3PAtLU" target="_blank">잘 때 들으면 좋은 노래!</a>'
+    }
+    if(now == "weekend"){
+        link.innerHTML = ''
     }
 
     if(currentDay == "월"){
