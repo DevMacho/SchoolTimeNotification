@@ -3,55 +3,6 @@ const day = document.getElementById('day');
 let now = "morning" 
 const link = document.getElementById('link');
 
-
-const timeTable = [
-    {
-        mon : {
-            first : "language",
-            second : "social",
-            third : "science",
-            forth : "tech",
-            fifth : "english",
-            sixth: "math",
-            seventh: "none"
-        },
-        tue: {
-            first : "info",
-            second : "language",
-            third : "home",
-            forth : "music",
-            fifth : "career",
-            sixth: "pe",
-            seventh: "math"
-        },
-        wed: {
-            first : "english",
-            second : "science",
-            third : "mind",
-            forth : "math",
-            fifth : "pe",
-            sixth: "social",
-            seventh: "none"
-        },
-        thu: {
-            first : "math",
-            second : "music",
-            third : "english",
-            forth : "pe",
-            fifth : "topic",
-            sixth: "topic",
-            seventh: "none"
-        },
-        fri: {
-            first : "mind",
-            second : "sports",
-            third : "language",
-            forth : "social",
-            fifth : "topic",
-            sixth: "topic",
-            seventh: "none"
-        }
-}]
 const status = document.getElementById('status');
 
 function handleClock(){
@@ -371,7 +322,7 @@ const lunchMenu = {
                 "생크림요거트",
                 "애호박새송이볶음",
                 "깍두기",
-                "중]해물순두부찌개(김치0)"
+                "해물순두부찌개"
             ]
         },
         {
@@ -407,7 +358,7 @@ const lunchMenu = {
                 "맑은콩나물국",
                 "매운돼지갈비찜",
                 "배추김치",
-                "중]그린샐러드",
+                "그린샐러드",
                 "매운돼지갈비찜"
             ]
         },
@@ -415,10 +366,10 @@ const lunchMenu = {
             "date":"9",
             "lunch":[
                 "현미밥",
-                "파닭(땅콩함유)",
+                "파닭",
                 "깍두기",
                 "돈육김치찌개",
-                "삼색감자채볶음(오븐)",
+                "삼색감자채볶음",
                 "짜먹는요거트 ",
                 "돈육김치찌개"
             ]
@@ -451,11 +402,11 @@ const lunchMenu = {
                 "보리밥",
                 "건새우아욱국",
                 "흑초오리불고기",
-                "참나물초무침(생것)",
+                "참나물초무침",
                 "김구이",
                 "배추김치",
                 "카라멜파이",
-                "참나물초무침(생것)",
+                "참나물초무침",
                 "흑초오리불고기"
             ]
         },
@@ -494,15 +445,13 @@ const lunchMenu = {
                 "무쌈",
                 "콩나물부추무침",
                 "배추겉절이",
-                "요구르트",
-                "허브삼겹살구이",
-                "쌈장"
+                "요구르트"
             ]
         },
         {
             "date":"17",
             "lunch":[
-                "중]토마토그린샐러드",
+                "토마토그린샐러드",
                 "카레라이스",
                 "밀또띠아피자",
                 "배추김치",
@@ -515,7 +464,7 @@ const lunchMenu = {
             "lunch":[
                 "현미밥",
                 "삼색조랭이떡국",
-                "수제떡갈비구이(수)",
+                "수제떡갈비구이",
                 "도라지오이생채",
                 "배추김치",
                 "배"
@@ -547,11 +496,7 @@ const lunchMenu = {
                 "돈육메추리알조림",
                 "피망잡채",
                 "깍두기",
-                "파인애플",
-                "육개장",
-                "돈육메추리알조림",
-                "피망잡채",
-                "보리밥"
+                "파인애플"
             ]
         },
         {
@@ -563,9 +508,7 @@ const lunchMenu = {
                 "소세지구이허니머스타드 ",
                 "야채계란말이",
                 "파래자반",
-                "바나나우유",
-                "야채계란말이",
-                "찰흑미밥"
+                "바나나우유"
             ]
         },
         {
@@ -573,9 +516,9 @@ const lunchMenu = {
             "lunch":[
                 "잔치국수",
                 "새우튀김&케찹",
-                "배추겉절이ㅇ",
+                "배추겉절이",
                 "꿀떡",
-                "식혜(완제품)",
+                "식혜",
                 "잔치국수",
                 "타르타르소스"
             ]
@@ -585,13 +528,10 @@ const lunchMenu = {
             "lunch":[
                 "완두콩밥",
                 "김치콩나물국",
-                "포크커틀렛(수)",
+                "포크커틀렛",
                 "브라운소스",
                 "꽃맛살샐러드",
-                "오이김치",
-                "김치콩나물국",
-                "브라운소스",
-                "완두콩밥"
+                "오이김치"
             ]
         },
         {
@@ -602,8 +542,7 @@ const lunchMenu = {
                 "무조미김",
                 "닭다리양념구이",
                 "열무김치",
-                "방울토마토",
-                "쇠고기곤드레나물밥&양념장"
+                "방울토마토"
             ]
         },
         {
@@ -646,7 +585,7 @@ const lunchMenu = {
                 "군만두",
                 "멕시칸샐러드",
                 "깍두기",
-                "마파두부덮밥1",
+                "마파두부덮밥",
                 "사과쥬스"
             ]
         }
