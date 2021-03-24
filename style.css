@@ -1,9 +1,28 @@
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
-.container {
+.goTop {
+	display: inline;
+	position: fixed;
+	background-color: white;
+	border: solid black 5px;
+	padding: 8px 8px;
+	border-radius: 25px;
+	bottom: 30px;
+	right: 30px;
+}
+
+.goTop img {
+	width: 50px;
+}
+
+#container {
 	text-align: center;
 }
 
