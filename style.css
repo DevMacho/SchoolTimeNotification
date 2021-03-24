@@ -232,6 +232,9 @@ button {
 	#submit {
 		margin-top: 20px;
 	}
+	.goTop img {
+		width: 10px;
+	}
 }
 
 footer {
