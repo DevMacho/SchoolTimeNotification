@@ -108,6 +108,31 @@
                 <p id="nextLunch"></p>
             </div>
         </div>
+        <h1>💌익명 고민함</h1>
+		<h4 class="subMindTitle">익명으로 우리반에 대한 고민을 털어놓아보세요!</h4>
+		<div class="lists">
+			<h4 class="mindTitle">우리반의 고민들</h4>
+			<div class="inner">
+				<p id="text">우리 회장 일 안한다!!</p>
+				<div class="btns">
+					<button id="previous" onclick="goPrevious()"><</button>
+					<button id="next" onclick="goNext()">></button>
+				</div>
+			</div>
+		</div>
+		<div class="request">
+			<h4 class="mindTitle">고민 우편함</h4>
+			<form id="form">
+				<input id="inputValue" type="text" placeholder="고민을 적어주세요!" required />
+				<input id="submit" type="submit" />
+			</form>
+		</div>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     </div>
+    <footer>
+        <strong>문의사항 및 업데이트 요청:</strong>
+        <strong class="blue">010-3361-7203</strong>
+        <strong>으로 문자하기!</strong>
+    </footer>
 </body>
 </html>

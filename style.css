@@ -63,6 +63,7 @@ td {
 	justify-content: center;
 	align-items: center;
 	margin-top: 80px;
+	margin-bottom: 100px;
 }
 
 .previous,
@@ -92,6 +93,65 @@ td {
 strong {
 	font-size: 16px;
 	font-weight: 700;
+}
+
+.mindTitle {
+	font-size: 32px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.subMindTitle {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+.inner {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#text {
+	width: 25em;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: rgb(228, 228, 228);
+	padding: 16px 12px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(19, 19, 19, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+button {
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+#inputValue {
+	width: 20rem;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 8px 12px;
+	outline: none;
+}
+
+#submit {
+	background-color: black;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 12px;
+	font-weight: 800;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 375px) {
@@ -147,4 +207,21 @@ strong {
 	.next {
 		width: 80%;
 	}
+	#text {
+		width: 15em;
+	}
+	#submit {
+		margin-top: 20px;
+	}
+}
+
+footer {
+	text-align: center;
+	background-color: #e6e6e6;
+	padding: 16px 12px;
+	margin-top: 100px;
+}
+
+.blue {
+	color: rgb(53, 99, 248);
 }
