@@ -647,7 +647,7 @@ function goNext(){
 
 function goPrevious(){
    if(checker == 0){
-      checker = lists.length;
+      checker = lists.length-1;
       setText()
       return;
    }
