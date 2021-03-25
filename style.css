@@ -126,6 +126,12 @@ strong {
 	margin-bottom: 100px;
 }
 
+.subTodoTitle {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
 .inner {
 	display: flex;
 	justify-content: center;
@@ -144,7 +150,8 @@ strong {
 	box-shadow: 0 4px 6px rgba(19, 19, 19, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-button {
+#previous,
+#next {
 	background: none;
 	outline: none;
 	border: none;
@@ -171,6 +178,31 @@ button {
 	padding: 6px 12px;
 	font-weight: 800;
 	cursor: pointer;
+}
+
+.todoList {
+	margin-bottom: 100px;
+}
+
+#js_todoList {
+	list-style: none;
+	padding-left: 0;
+}
+
+#js_todoList li {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 8px 12px;
+}
+
+#delBTN {
+	background: none;
+	border: solid black 2px;
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	padding-right: 20px;
+	margin-right: 20px;
 }
 
 @media only screen and (max-width: 375px) {

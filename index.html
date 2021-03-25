@@ -10,6 +10,7 @@
     <title>학교 시간 알리미</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
+    <script defer src="todo.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <body>
@@ -108,6 +109,14 @@
                 </strong>
                 <p id="nextLunch"></p>
             </div>
+        </div>
+        <div class="todoList">
+            <h1>📜할일 목록</h1>
+            <h4 class="subTodoTitle">오늘의 할일 목록을 적어보세요!</h4>
+            <form id="js_todoForm">
+                <input id="inputValue" type="text" placeholder="오늘 할일을 적어주세요!" required>
+            </form>
+            <ul id="js_todoList"></ul>
         </div>
         <h1>💌익명 고민함</h1>
 		<h4 class="subMindTitle">익명으로 우리반에 대한 고민을 털어놓아보세요!</h4>
