@@ -621,7 +621,7 @@ function upadateLunch(){
 upadateLunch()
 
 //고민 목록
-const lists = ["우리 회장 일 안한다!", "아 철수 오늘 영희 뒷담깜", "샌즈가 좋아"]
+const lists = ["<unexpected error : ¹®ÀÚ ±úÁü Å×½ºÆ®> 이런거 보내지 마세욧 안속아욥","우리 회장 일 안한다!", "아 철수 오늘 영희 뒷담깜", "샌즈가 좋아"]
 
 const previousBTN = document.getElementById('previous');
 const nextBTN = document.getElementById('next');
