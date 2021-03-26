@@ -662,12 +662,12 @@ setInterval(goNext, 5000);
     emailjs.init("user_PpVc36LLtrPTrw7WlrhXE");
  })();
 
- const form = document.getElementById('form');
+ const emailForm = document.getElementById('emailForm');
 
 
  function sendEmail(event){
    event.preventDefault();
-   emailjs.send('service_r4a0nlq', 'template_vbksl5h',{message: document.getElementById('inputValue').value}).then(function(response) {
+   emailjs.send('service_r4a0nlq', 'template_vbksl5h',{message: document.getElementById('emailInput').value}).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
        alert('고민이 정상적으로 전송되었습니다.');
    }, function(error) {
@@ -676,4 +676,4 @@ setInterval(goNext, 5000);
    });
 };
 
-form.addEventListener('submit', sendEmail);
+emailForm.addEventListener('submit', sendEmail);
