@@ -7,6 +7,11 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .goTop {
 	display: inline;
 	position: fixed;
@@ -160,7 +165,8 @@ strong {
 	margin-bottom: 50px;
 }
 
-#emailInput {
+#emailInput,
+#inputValue {
 	width: 20rem;
 	font-size: 20px;
 	border-radius: 10px;
