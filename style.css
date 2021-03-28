@@ -7,7 +7,7 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
-a {
+h1 a {
 	text-decoration: none;
 	color: black;
 }
