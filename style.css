@@ -3,10 +3,19 @@
 }
 
 header {
-	background-color: rgb(241, 58, 58);
+	background-color: rgb(228, 47, 47);
 	font-size: 18px;
 	padding: 8px 12px;
-	font-weight: 500;
+	font-weight: 700;
+	color: rgb(255, 225, 225);
+	display: flex;
+}
+
+header a {
+	color: rgb(255, 231, 231);
+	display: block;
+	margin-left: auto;
+	font-weight: 400;
 }
 
 body {
