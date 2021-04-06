@@ -2,6 +2,13 @@
 	scroll-behavior: smooth;
 }
 
+header {
+	background-color: rgb(241, 58, 58);
+	font-size: 18px;
+	padding: 8px 12px;
+	font-weight: 500;
+}
+
 body {
 	margin: 0;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -70,6 +77,11 @@ table {
 th {
 	font-size: 24px;
 	border-left: solid 5px;
+}
+
+.tdTime {
+	font-size: 8px;
+	font-weight: 600;
 }
 
 td {
@@ -285,3 +297,9 @@ footer {
 .blue {
 	color: rgb(53, 99, 248);
 }
+
+/*---------이거 지우면 뒤짐------------*/
+.hide {
+	display: none;
+}
+/*---------------이거 지우면 뒤짐---------------*/
