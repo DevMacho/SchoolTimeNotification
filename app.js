@@ -72,7 +72,7 @@ function handleClock(){
         status.innerText = '점심 맛있게 드세요!! 냠냠쩝쩝🍽';
     }
     if(hours == 13 && minutes < 20){
-        now = lunch;
+        now = 'lunch';
         status.innerText = '점심 맛있게 드세요!! 냠냠쩝쩝🍽';
     }
     if(hours == 13 && minutes > 19){
