@@ -3,16 +3,16 @@
 }
 
 header {
-	background-color: rgb(228, 47, 47);
+	background-color: rgb(38, 94, 248);
 	font-size: 18px;
 	padding: 8px 12px;
 	font-weight: 700;
-	color: rgb(255, 225, 225);
+	color: rgb(255, 255, 255);
 	display: flex;
 }
 
 header a {
-	color: rgb(255, 231, 231);
+	color: rgb(255, 255, 255);
 	display: block;
 	margin-left: auto;
 	font-weight: 400;
@@ -51,6 +51,19 @@ h1 a {
 	text-align: center;
 }
 
+.box1 {
+	display: flex;
+	margin: 10px 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.clock {
+	width: 50%;
+	margin-right: 30px;
+}
+
 h1 {
 	font-size: 48px;
 	font-weight: 900;
@@ -84,7 +97,6 @@ h5 {
 table {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
 }
 
 th {
@@ -112,7 +124,44 @@ td {
 	justify-content: center;
 	align-items: center;
 	margin-top: 80px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+
+.oneBTN {
+	display: flex;
+	margin: 8px 50px;
+	flex-direction: column;
+}
+
+#todoListBTN,
+#mindBTN,
+#tableBTN {
+	color: white;
+	background-color: #2c83ec;
+	transition: 0.3s;
+	font-size: 36px;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 3px;
+	box-shadow: 0 4px 6px rgba(19, 19, 19, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+#todoListBTN:hover,
+#mindBTN:hover,
+#tableBTN:hover {
+	background-color: #1565c7;
 }
 
 .previous,

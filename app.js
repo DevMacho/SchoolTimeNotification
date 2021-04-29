@@ -135,6 +135,9 @@ function handleClock(){
     if(now == "greetings"){
         link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">담임쌤 수업 바로가기</a>'
     }
+    if(now == "lunch"){
+        link.innerHTML = ''
+    }
 
     if(currentDay == "월"){
         if(now == "break"){

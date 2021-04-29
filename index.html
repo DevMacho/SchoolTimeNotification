@@ -11,20 +11,30 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
     <script defer src="todo.js"></script>
+    <script defer src="buttons.js"></script>
+    <script defer src="https://kit.fontawesome.com/c4986d1f0b.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <body>
-    <header class="">!공지 | 시끌벅적 채팅방이 업데이트가 완료되었습니다!!!!! 패치노트 필독!!!! →→→→→→→→ <a href="https://docs.google.com/document/d/1gvliZUvWWXegZfgSH43C7WnQUw7bjE15RQiJDx0q5Q8/edit?usp=sharing" target="_blank">자세히 알아보기</a></header>
+    <header id="top">!공지 | 01.05.02 업데이트 완료되었습니다! <a href="https://docs.google.com/document/d/1lAN9wRob34-yj6pcVtD_9r0PL5XW6BWOx6MbS5G-ruY/edit?usp=sharing" target="_blank">자세히 알아보기</a></header>
     <div id="container">
-        <a href="#container" class="goTop"><img src="/upwards-arrow.png" alt="arrow"></a>
-        <h1><a href="https://sunaeclass.tk/">🧭학교 시간 알리미</a></h1>
-        <h4>지금 시간</h4>
-        <h3 id="day">00월 00일 월요일
-        </h3>
-        <h2 id="jsClock">00:00:00</h2>
-        <p id="status">좋은 밤 되세용</p>
-        <h5 id="link">링크</h5>
-        <table>
+        <div class="box1">
+            <div class="clock">
+                <a href="#top" class="goTop"><img src="/upwards-arrow.png" alt="arrow"></a>
+                <h1><a href="https://sunaeclass.tk/">🧭학교 시간 알리미</a></h1>
+                <h4>지금 시간</h4>
+                <h3 id="day">00월 00일 월요일
+                </h3>
+                <h2 id="jsClock">00:00:00</h2>
+                <p id="status">좋은 밤 되세용</p>
+                <h5 id="link">링크</h5>
+            </div>
+            <div class="icons">
+                <div class="oneBTN"><button id="tableBTN"><i class="fas fa-table"></i></button>시간표</div>
+                <div class="oneBTN"><button id="todoListBTN"><i class="fas fa-clipboard-list"></i></button>할일 목록</div>
+                <div class="oneBTN"><button id="mindBTN"><i class="fas fa-envelope-open-text"></i></button>익명 고민함</div>
+            </div>
+            <table id="table" class="hide">
             <th>시간표</th>
             <tr>
                 <td class="c">교시/요일</td>
@@ -91,6 +101,36 @@
                 <td>////</td>
             </tr>
         </table>
+    </div>
+        <div class="todoList hide" id="todoList">
+            <h1>📜할일 목록</h1>
+            <h4 class="subTodoTitle">오늘의 할일 목록을 적어보세요!</h4>
+            <form id="js_todoForm">
+                <input id="inputValue" type="text" placeholder="오늘 할일을 적어주세요!" required>
+            </form>
+            <ul id="js_todoList"></ul>
+        </div>
+        <div class="mind hide" id="mind">
+            <h1>💌익명 고민함</h1>
+		    <h4 class="subMindTitle">익명으로 우리반에 대한 고민을 털어놓아보세요!</h4>
+		    <div class="lists">
+		    	<h4 class="mindTitle">우리반의 고민들</h4>
+		    	<div class="inner">
+		    		<p id="text"></p>
+		    		<div class="btns">
+		    			<button id="previous" onclick="goPrevious()"><</button>
+		    			<button id="next" onclick="goNext()">></button>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="request">
+		    	<h4 class="mindTitle">고민 우편함</h4>
+		    	<form id="emailForm">
+		    		<input id="emailInput" type="text" placeholder="고민을 적어주세요!" required />
+		    		<input id="submit" type="submit" />
+		    	</form>
+		    </div>
+        </div>
         <div class="lunch">
             <div class="previous">
                 <strong>
@@ -111,33 +151,6 @@
                 <p id="nextLunch"></p>
             </div>
         </div>
-        <div class="todoList">
-            <h1>📜할일 목록</h1>
-            <h4 class="subTodoTitle">오늘의 할일 목록을 적어보세요!</h4>
-            <form id="js_todoForm">
-                <input id="inputValue" type="text" placeholder="오늘 할일을 적어주세요!" required>
-            </form>
-            <ul id="js_todoList"></ul>
-        </div>
-        <h1>💌익명 고민함</h1>
-		<h4 class="subMindTitle">익명으로 우리반에 대한 고민을 털어놓아보세요!</h4>
-		<div class="lists">
-			<h4 class="mindTitle">우리반의 고민들</h4>
-			<div class="inner">
-				<p id="text"></p>
-				<div class="btns">
-					<button id="previous" onclick="goPrevious()"><</button>
-					<button id="next" onclick="goNext()">></button>
-				</div>
-			</div>
-		</div>
-		<div class="request">
-			<h4 class="mindTitle">고민 우편함</h4>
-			<form id="emailForm">
-				<input id="emailInput" type="text" placeholder="고민을 적어주세요!" required />
-				<input id="submit" type="submit" />
-			</form>
-		</div>
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <h1 class="marginTop100px">시끌벅적 채팅방</h1>
         <div id="disqus_thread"></div>
