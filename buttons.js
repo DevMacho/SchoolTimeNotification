@@ -14,6 +14,10 @@ function handleTable(){
     if(tableHandler == 0){
         table.classList.remove("hide");
         tableHandler++;
+        toDoListHandler = 1;
+        mindHandler = 1;
+        handleToDoList();
+        handleMind();
         return;
     }
     if(tableHandler == 1){
@@ -27,6 +31,10 @@ function handleToDoList(){
     if(toDoListHandler == 0){
         todolist.classList.remove("hide");
         toDoListHandler++;
+        tableHandler = 1;
+        mindHandler = 1;
+        handleTable();
+        handleMind();
         return;
     }
     if(toDoListHandler == 1){
@@ -40,6 +48,10 @@ function handleMind(){
     if(mindHandler == 0){
         mind.classList.remove("hide");
         mindHandler++;
+        toDoListHandler = 1;
+        tableHandler = 1;
+        handleToDoList();
+        handleTable();
         return;
     }
     if(mindHandler == 1){
