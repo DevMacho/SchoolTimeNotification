@@ -31,11 +31,11 @@ function handleClock(){
         now = "first";
         status.innerText = '1교시 수업 듣자!';
     }
-    if(hours == 9 && minutes > 44 && minutes < 55){
+    if(hours == 9 && minutes > 44 && minutes < 50){
         now = "break";
         status.innerText = '쉬는 시간! 다음은 2교시! 미리 준비하자!';
     }
-    if(hours == 9 && minutes > 54){
+    if(hours == 9 && minutes > 49){
         now = "second";
         status.innerText = '2교시 수업 듣자!';
     }
@@ -43,11 +43,11 @@ function handleClock(){
         now = "second";
         status.innerText = '2교시 수업 듣자!';
     }
-    if(hours == 10 && minutes > 39 && minutes < 50){
+    if(hours == 10 && minutes > 39 && minutes < 45){
         now = "break";
         status.innerText = '쉬는 시간! 다음은 3교시! 미리 준비하자!'
     }
-    if(hours == 10 && minutes > 49){
+    if(hours == 10 && minutes > 44){
         now = "third";
         status.innerText = '3교시 수업 듣자!';
     }
@@ -55,11 +55,11 @@ function handleClock(){
         now = "third";
         status.innerText = '3교시 수업 듣자!';
     }
-    if(hours == 11 && minutes > 34 && minutes < 45){
+    if(hours == 11 && minutes > 34 && minutes < 40){
         now = "break";
         status.innerText = '쉬는 시간! 다음은 4교시! 미리 준비하자!';
     }
-    if(hours == 11 && minutes > 44){
+    if(hours == 11 && minutes > 39){
         now = "forth";
         status.innerText = '4교시 수업 듣자!';
     }
@@ -71,11 +71,11 @@ function handleClock(){
         now = 'lunch';
         status.innerText = '점심 맛있게 드세요!! 냠냠쩝쩝🍽';
     }
-    if(hours == 13 && minutes < 20){
+    if(hours == 13 && minutes < 15){
         now = 'lunch';
         status.innerText = '점심 맛있게 드세요!! 냠냠쩝쩝🍽';
     }
-    if(hours == 13 && minutes > 19){
+    if(hours == 13 && minutes > 14){
         now = 'fifth';
         status.innerText = '5교시 수업 듣자!';
     }
@@ -83,19 +83,19 @@ function handleClock(){
         now = 'fifth';
         status.innerText = '5교시 수업 듣자!';
     }
-    if(hours == 14 && minutes > 4 && minutes < 15){
+    if(hours == 14 && minutes > 4 && minutes < 10){
         now = 'break';
         status.innerText = '쉬는 시간! 다음은 6교시! 미리 준비하자!';
     }
-    if(hours == 14 && minutes > 14){
+    if(hours == 14 && minutes > 9){
         now = 'sixth';
         status.innerText = '6교시 수업 듣자!'
     }
-    if(hours == 15 && minutes >= 0 && minutes < 10 && currentDay == "화"){
+    if(hours == 15 && minutes >= 0 && minutes < 5 && currentDay == "화"){
         now = 'break';
         status.innerText = '쉬는 시간! 다음은 7교시! 미리 준비하자!';
     }
-    if(hours == 15 && minutes > 9 && minutes < 55 && currentDay == "화"){
+    if(hours == 15 && minutes > 4 && minutes < 55 && currentDay == "화"){
         now = 'seventh';
         status.innerText = '7교시 수업 듣자!';
     }
