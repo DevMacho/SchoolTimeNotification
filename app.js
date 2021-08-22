@@ -145,27 +145,27 @@ function handleClock(){
             return;
         }
         if(now == "first"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
-            return;
-        }
-        if(now == "second"){
             link.innerHTML = '<a href="https://us02web.zoom.us/j/5563815022" target="_blank">사회 수업 바로가기</a>'
             return;
         }
-        if(now == "third"){
+        if(now == "second"){
             link.innerHTML = '<a href="https://us02web.zoom.us/j/4224232918" target="_blank">과학 수업 바로가기</a>'
             return;
         }
+        if(now == "third"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/5818353428" target="_blank">도덕 수업 바로가기</a>'
+            return;
+        }
         if(now == "forth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/8107031918" target="_blank">기술 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/6323632460" target="_blank">정보 수업 바로가기</a>'
             return;
         }
         if(now == "fifth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">영어 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/7436891712" target="_blank">진로 수업 바로가기</a>'
             return;
         }
         if(now == "sixth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
             return;
         }
     }
@@ -175,31 +175,31 @@ function handleClock(){
             return;
         }
         if(now == "first"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/6323632460" target="_blank">정보 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
             return;
         }
         if(now == "second"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
-            return;
-        }
-        if(now == "third"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/3810868460" target="_blank">가정 수업 바로가기</a>'
-            return;
-        }
-        if(now == "forth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/8810428701" target="_blank">음악 수업 바로가기</a>'
-            return;
-        }
-        if(now == "fifth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/7436891712" target="_blank">진로 수업 바로가기</a>'
-            return;
-        }
-        if(now == "sixth"){
             link.innerHTML = '<a href="https://us02web.zoom.us/j/2057943242" target="_blank">체육 수업 바로가기</a>'
             return;
         }
+        if(now == "third"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">영어 수업 바로가기</a>'
+            return;
+        }
+        if(now == "forth"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/5818353428" target="_blank">도덕 수업 바로가기</a>'
+            return;
+        }
+        if(now == "fifth"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/8810428701" target="_blank">음악 수업 바로가기</a>'
+            return;
+        }
+        if(now == "sixth"){
+            link.innerHTML = '기가 수업은 알아서 찾아가기!'
+            return;
+        }
         if(now == "seventh"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
             return;
         }
     }
@@ -209,27 +209,27 @@ function handleClock(){
             return;
         }
         if(now == "first"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">영어 수업 바로가기</a>'
-            return;
-        }
-        if(now == "second"){
             link.innerHTML = '<a href="https://us02web.zoom.us/j/4224232918" target="_blank">과학 수업 바로가기</a>'
             return;
         }
-        if(now == "third"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/7517978872" target="_blank">도덕 수업 바로가기</a>'
+        if(now == "second"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">영어 수업 바로가기</a>'
             return;
         }
-        if(now == "forth"){
+        if(now == "third"){
             link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
             return;
         }
+        if(now == "forth"){
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/7436891712" target="_blank">스포츠 수업 바로가기</a>'
+            return;
+        }
         if(now == "fifth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/2057943242" target="_blank">체육 수업 바로가기</a>'
+            link.innerHTML = '예체 수업은 알아서 찾아가기!'
             return;
         }
         if(now == "sixth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/5563815022" target="_blank">사회 수업 바로가기</a>'
+            link.innerHTML = '예체 수업은 알아서 찾아가기!'
             return;
         }
     }
@@ -239,26 +239,26 @@ function handleClock(){
             return;
         }
         if(now == "first"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/8107031918" target="_blank">기술 수업 바로가기</a>'
             return;
         }
         if(now == "second"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/8810428701" target="_blank">음악 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/8725870775" target="_blank">가정 수업 바로가기</a>'
             return;
         }
         if(now == "third"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/4391736098" target="_blank">영어 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
             return;
         }
         if(now == "forth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/2057943242" target="_blank">체육 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/5563815022" target="_blank">사회 수업 바로가기</a>'
             return;
         }
         if(now == "fifth"){
-            link.innerHTML = '주제 수업은 알아서 찾아가기!'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/4224232918" target="_blank">과학 수업 바로가기</a>'
         }
         if(now == "sixth"){
-            link.innerHTML = '주제 수업은 알아서 찾아가기!'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/5818353428" target="_blank">도덕 수업 바로가기</a>'
         }
     }
     if(currentDay == "금"){
@@ -267,16 +267,16 @@ function handleClock(){
             return;
         }
         if(now == "first"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/7517978872" target="_blank">도덕 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/9452660383" target="_blank">수학 수업 바로가기</a>'
         }
         if(now == "second"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/4661706770" target="_blank">스포츠 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/5563815022" target="_blank">사회 수업 바로가기</a>'
         }
         if(now == "third"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/2057943242" target="_blank">체육 수업 바로가기</a>'
         }
         if(now == "forth"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/5563815022" target="_blank">사회 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/3868812541" target="_blank">국어 수업 바로가기</a>'
         }
         if(now == "fifth"){
             link.innerHTML = '주제 수업은 알아서 찾아가기!'
@@ -290,211 +290,211 @@ handleClock();
 setInterval(handleClock,1000);
 
 const lunchMenu = {
-    "menu": [
-      {
-        "date": "1",
-        "lunch": []
-      },
-      {
-        "date": "2",
-        "lunch": []
-      },
-      {
-        "date": "3",
-        "lunch": []
-      },
-      {
-        "date": "4",
-        "lunch": []
-      },
-      {
-        "date": "5",
-        "lunch": []
-      },
-      {
-        "date": "6",
-        "lunch": []
-      },
-      {
-        "date": "7",
-        "lunch": []
-      },
-      {
-        "date": "8",
-        "lunch": []
-      },
-      {
-        "date": "9",
-        "lunch": []
-      },
-      {
-        "date": "10",
-        "lunch": []
-      },
-      {
-        "date": "11",
-        "lunch": []
-      },
-      {
-        "date": "12",
-        "lunch": []
-      },
-      {
-        "date": "13",
-        "lunch": []
-      },
-      {
-        "date": "14",
-        "lunch": []
-      },
-      {
-        "date": "15",
-        "lunch": []
-      },
-      {
-        "date": "16",
-        "lunch": []
-      },
-      {
-        "date": "17",
-        "lunch": [
-          "현미찹쌀밥",
-          "중]오징어애호박국",
-          "배추김치",
-          "중]수제돈까스/소스",
-          "감자범벅",
-          "사과"
-        ]
-      },
-      {
-        "date": "18",
-        "lunch": [
-          "미역두부왜된장국",
-          "오색비빔밥&양념장",
-          "중]닭장각바베큐구이",
-          "백김치",
-          "포도(거봉)"
-        ]
-      },
-      {
-        "date": "19",
-        "lunch": [
-          "잡곡밥",
-          "중]편육",
-          "m쌈장",
-          "배추김치",
-          "호박잎된장국",
-          "오미자에이드",
-          "실곤약야채무침"
-        ]
-      },
-      {
-        "date": "20",
-        "lunch": [
-          "찹쌀밥",
-          "중]어묵국",
-          "꽃맛살샐러드",
-          "중]뼈없는닭갈비",
-          "배추김치",
-          "아이스홍시"
-        ]
-      },
-      {
-        "date": "21",
-        "lunch": []
-      },
-      {
-        "date": "22",
-        "lunch": []
-      },
-      {
-        "date": "23",
-        "lunch": [
-          "현미찹쌀밥",
-          "중]비타민치커리겉절이",
-          "중]수제함박스테이크",
-          "배추김치",
-          "중]꽃게탕",
-          "중]알감자버터구이"
-        ]
-      },
-      {
-        "date": "24",
-        "lunch": [
-          "순두부찌개",
-          "해물잡채",
-          "계란말이(햄,베이컨)",
-          "배추김치",
-          "요구르트",
-          "찰기장밥"
-        ]
-      },
-      {
-        "date": "25",
-        "lunch": [
-          "미트소스스파게티(주식)",
-          "깍두기",
-          "갈릭크림치즈브레드",
-          "닭가슴살샐러드",
-          "쌀밥(보조)",
-          "오이피클",
-          "레몬에이드"
-        ]
-      },
-      {
-        "date": "26",
-        "lunch": [
-          "찰보리밥",
-          "간장돼지불고기",
-          "중]김말이강정",
-          "열무김치",
-          "양배추쌈&쌈장",
-          "감자수제비국"
-        ]
-      },
-      {
-        "date": "27",
-        "lunch": [
-          "오다리&단호박튀김",
-          "잡곡밥",
-          "중]건새우아욱된장국",
-          "중]닭볶음탕",
-          "배추김치",
-          "블루베리쥬스"
-        ]
-      },
-      {
-        "date": "28",
-        "lunch": []
-      },
-      {
-        "date": "29",
-        "lunch": []
-      },
-      {
-        "date": "30",
-        "lunch": [
-          "잡곡밥",
-          "대구매운탕",
-          "중)치커리오이생채",
-          "배추김치",
-          "오리훈제단호박찜",
-          "식혜"
-        ]
-      },
-      {
-        "date": "31",
-        "lunch": [
-          "찹쌀밥",
-          "중]만두국",
-          "중]도토리묵&양념장",
-          "불닭",
-          "배추김치",
-          "요구르트"
-        ]
-      }
-    ]
-  }
+  "menu": [
+    {
+      "date": "1",
+      "lunch": []
+    },
+    {
+      "date": "2",
+      "lunch": []
+    },
+    {
+      "date": "3",
+      "lunch": []
+    },
+    {
+      "date": "4",
+      "lunch": []
+    },
+    {
+      "date": "5",
+      "lunch": []
+    },
+    {
+      "date": "6",
+      "lunch": []
+    },
+    {
+      "date": "7",
+      "lunch": []
+    },
+    {
+      "date": "8",
+      "lunch": []
+    },
+    {
+      "date": "9",
+      "lunch": []
+    },
+    {
+      "date": "10",
+      "lunch": []
+    },
+    {
+      "date": "11",
+      "lunch": []
+    },
+    {
+      "date": "12",
+      "lunch": []
+    },
+    {
+      "date": "13",
+      "lunch": []
+    },
+    {
+      "date": "14",
+      "lunch": []
+    },
+    {
+      "date": "15",
+      "lunch": []
+    },
+    {
+      "date": "16",
+      "lunch": []
+    },
+    {
+      "date": "17",
+      "lunch": [
+        "현미찹쌀밥",
+        "오징어애호박국",
+        "배추김치",
+        "수제돈까스/소스",
+        "감자범벅",
+        "사과"
+      ]
+    },
+    {
+      "date": "18",
+      "lunch": [
+        "미역두부왜된장국",
+        "오색비빔밥&양념장",
+        "닭장각바베큐구이",
+        "백김치",
+        "포도(거봉)"
+      ]
+    },
+    {
+      "date": "19",
+      "lunch": [
+        "잡곡밥",
+        "편육",
+        "쌈장",
+        "배추김치",
+        "호박잎된장국",
+        "오미자에이드",
+        "실곤약야채무침"
+      ]
+    },
+    {
+      "date": "20",
+      "lunch": [
+        "찹쌀밥",
+        "어묵국",
+        "꽃맛살샐러드",
+        "뼈없는닭갈비",
+        "배추김치",
+        "아이스홍시"
+      ]
+    },
+    {
+      "date": "21",
+      "lunch": []
+    },
+    {
+      "date": "22",
+      "lunch": []
+    },
+    {
+      "date": "23",
+      "lunch": [
+        "현미찹쌀밥",
+        "비타민치커리겉절이",
+        "수제함박스테이크",
+        "배추김치",
+        "꽃게탕",
+        "알감자버터구이"
+      ]
+    },
+    {
+      "date": "24",
+      "lunch": [
+        "순두부찌개",
+        "해물잡채",
+        "계란말이",
+        "배추김치",
+        "요구르트",
+        "찰기장밥"
+      ]
+    },
+    {
+      "date": "25",
+      "lunch": [
+        "미트소스스파게티",
+        "깍두기",
+        "갈릭크림치즈브레드",
+        "닭가슴살샐러드",
+        "쌀밥",
+        "오이피클",
+        "레몬에이드"
+      ]
+    },
+    {
+      "date": "26",
+      "lunch": [
+        "찰보리밥",
+        "간장돼지불고기",
+        "김말이강정",
+        "열무김치",
+        "양배추쌈&쌈장",
+        "감자수제비국"
+      ]
+    },
+    {
+      "date": "27",
+      "lunch": [
+        "오다리&단호박튀김",
+        "잡곡밥",
+        "건새우아욱된장국",
+        "닭볶음탕",
+        "배추김치",
+        "블루베리쥬스"
+      ]
+    },
+    {
+      "date": "28",
+      "lunch": []
+    },
+    {
+      "date": "29",
+      "lunch": []
+    },
+    {
+      "date": "30",
+      "lunch": [
+        "잡곡밥",
+        "대구매운탕",
+        "치커리오이생채",
+        "배추김치",
+        "오리훈제단호박찜",
+        "식혜"
+      ]
+    },
+    {
+      "date": "31",
+      "lunch": [
+        "찹쌀밥",
+        "만두국",
+        "도토리묵&양념장",
+        "불닭",
+        "배추김치",
+        "요구르트"
+      ]
+    }
+  ]
+}
 
 const previousLunch = document.getElementById('previousLunch');
 const todayLunch = document.getElementById('todayLunch');
