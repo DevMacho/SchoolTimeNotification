@@ -243,7 +243,7 @@ function handleClock(){
             return;
         }
         if(now == "second"){
-            link.innerHTML = '<a href="https://us02web.zoom.us/j/8725870775" target="_blank">가정 수업 바로가기</a>'
+            link.innerHTML = '<a href="https://us02web.zoom.us/j/8715870775" target="_blank">가정 수업 바로가기</a>'
             return;
         }
         if(now == "third"){
