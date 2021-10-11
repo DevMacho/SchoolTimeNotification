@@ -12,6 +12,11 @@
     <script defer src="app.js"></script>
     <script defer src="todo.js"></script>
     <script defer src="buttons.js"></script>
+    <script>
+        function notifierLocation() {
+            window.location.href = "https://school-notifier-frontend.vercel.app/"
+        }
+    </script>
     <script defer src="https://kit.fontawesome.com/c4986d1f0b.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -33,6 +38,7 @@
                 <div class="oneBTN"><button id="tableBTN"><i class="fas fa-table"></i></button>시간표</div>
                 <div class="oneBTN"><button id="todoListBTN"><i class="fas fa-clipboard-list"></i></button>할일 목록</div>
                 <div class="oneBTN"><button id="mindBTN"><i class="fas fa-envelope-open-text"></i></button>익명 고민함</div>
+                <div class="oneBTN"><button id="notifierBTN" onclick="notifierLocation()"><i class="fas fa-calendar-alt"></i></button>일정알리미</div>
             </div>
         </div>
         <table id="table" class="hide">

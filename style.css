@@ -144,7 +144,8 @@ td {
 
 #todoListBTN,
 #mindBTN,
-#tableBTN {
+#tableBTN,
+#notifierBTN {
 	color: white;
 	background-color: #ec2c2c;
 	transition: 0.3s;
@@ -161,7 +162,8 @@ td {
 
 #todoListBTN:hover,
 #mindBTN:hover,
-#tableBTN:hover {
+#tableBTN:hover,
+#notifierBTN:hover {
 	background-color: #c71515;
 }
 
